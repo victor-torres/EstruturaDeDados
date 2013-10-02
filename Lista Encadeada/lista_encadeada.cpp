@@ -162,6 +162,11 @@ int main ()
 
 	cout << "Lista: ";
 	lista.imprimir ();
+	
+	cout << "Buscando indice do elemento 20" << endl;
+
+	cout << "O elemento 20 esta na posicao ";
+	cout << lista.buscarElemento(20) + 1 << endl << endl; 
 
 	cout << "Removendo primeira ocorrencia de 20" << endl;
 
